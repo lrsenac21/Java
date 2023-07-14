@@ -1,0 +1,20 @@
+package testeProcessamento;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int x = 5;
+		double y = 2 * x;
+		
+		System.out.println(x);
+		System.out.println(y);
+		
+		double b = 6.0;
+		double h = 5.0;
+		double B = 8.0;
+		
+		area = (b+B) / 2.0 * h;
+		System.out.print(area);
+	}
+
+}

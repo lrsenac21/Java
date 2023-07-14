@@ -1,0 +1,23 @@
+package EntradadeDados;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class EntradadeDados {
+
+	public static void main(String[] args) {		
+	
+		Locale.setDefault(Locale.US);
+		
+		
+		
+		Scanner scanner = new Scanner(System.in);
+		char y;
+		y = scanner.next().charAt(0);
+		
+		System.out.println("Você digitou: " + y);
+		
+		scanner.close();
+	}
+
+}

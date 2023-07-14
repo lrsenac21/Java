@@ -1,0 +1,19 @@
+package EntradadeDados;
+
+import java.util.Scanner;
+
+public class EntradadeDados {
+
+	public static void main(String[] args) {
+		
+		
+		
+		int y;
+		y=scanner.nextInt();
+		
+		System.out.println("Digite um numero: " + y );
+		
+		scanner.close();
+	}
+
+}
